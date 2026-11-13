@@ -25,5 +25,5 @@ jobs:
       - name: Validate docker-compose config
         run: docker compose config -q
 
-      - name: Build Docker images
-        run: docker compose build
+      - name: Pull Docker images
+        run: docker compose pull
